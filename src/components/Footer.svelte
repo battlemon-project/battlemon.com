@@ -10,14 +10,14 @@
   }
   .col a {
     color: rgba(255,255,255, 0.8);
-    transition: all 0.5s;
+    transition: all 0.3s;
   }
   .col a:hover {
-    color: #cda77f;
+    color: #000;
   }
-  .sixsteen {
+  /* .sixsteen {
     opacity: 0.7;
-  }
+  } */
   .human {
     position: relative;
     top: -2px;
