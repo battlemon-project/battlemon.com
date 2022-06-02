@@ -36,7 +36,7 @@
     top: 20px;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%)
   }
   .countdown {
     text-align: center;
