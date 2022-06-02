@@ -9,8 +9,8 @@
     const { Model } = await import('$src/threejs/homepage')
     new Model({
       dom: 'homecity',
-      model: '/homepage/MainMenu_Stripes_animated.glb?020620220002',
-      hdr: '/homepage/venice_sunset_1k.hdr?020620220002',
+      model: '/homepage/MainMenu_Stripes_animated.glb?020620220003',
+      hdr: '/homepage/venice_sunset_1k.hdr?020620220003',
     })
   })
 </script>
