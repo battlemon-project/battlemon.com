@@ -40,18 +40,18 @@
   }
   .countdown {
     text-align: center;
-    font-size: 25px;
+    font-size: 24px;
     line-height: 21px;
     font-weight: 700;
     float: right;
     color: #f0f0f0;
-    padding: 10px;
+    padding: 10px 8px;
     border: 1px solid #fff;
     border-radius: 10px;
     height: 45.25px;
     width: 15vw;
     max-width: 198px;
-    min-width: 148px;
+    min-width: 156px;
     display: block;
     transition: all 0.5s;
     font-family: Montserrat,"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji",

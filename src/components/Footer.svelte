@@ -26,7 +26,7 @@
 
 <footer class="footer">
   <div class="container">
-    <div class="d-flex float-end">
+    <div class="float-end d-none d-md-flex">
       <!-- <div class="col sixsteen">
         <svg
           width="30"

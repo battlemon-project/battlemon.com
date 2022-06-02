@@ -11,13 +11,13 @@
   }
   .logo a {
     color: #f0f0f0;
-    padding: 10px;
+    padding: 10px 8px;
     border: 1px solid #fff;
     border-radius: 10px;
     height: 45.25px;
     width: 15vw;
     max-width: 198px;
-    min-width: 148px;
+    min-width: 156px;
     display: block;
     transition: all 0.5s;
   }
