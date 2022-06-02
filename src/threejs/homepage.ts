@@ -242,7 +242,6 @@ export class Model {
           break;
         }
       }
-      console.log(hovered)
     }
 
     if (this.pointerOver != hovered) {
