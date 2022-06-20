@@ -199,6 +199,8 @@ export class Model {
     this.scene.getObjectByName('arena_rotator_a_stroke')!.visible = hovered == 'arena'
     this.scene.getObjectByName('download_client_car_stroke')!.visible = hovered == 'download_client'
     this.scene.getObjectByName('download_client_car_adv_stroke')!.visible = hovered == 'download_client'
+    this.scene.getObjectByName('lemterprise_stroke')!.visible = hovered == 'lemterprise'
+    this.scene.getObjectByName('engines_stroke')!.visible = hovered == 'lemterprise'
   }
 
   private animate(): void {
@@ -235,6 +237,10 @@ export class Model {
         } else
         if (object.name.indexOf('arena_') >= 0) {
           hovered = 'arena'
+          break;
+        } else
+        if (object.name.indexOf('lemterprise_') >= 0 || object.name.indexOf('engines_') >= 0 ) {
+          hovered = 'lemterprise'
           break;
         } else
         if (object.name.indexOf('download_client') >= 0) {
