@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte'
-  const countDownDate = new Date("Sep 1, 2022 12:00:00").getTime();
+  const countDownDate = new Date("Sep 12, 2022 12:00:00").getTime();
   const now = new Date().getTime();
   const timeleft = countDownDate - now;
       
